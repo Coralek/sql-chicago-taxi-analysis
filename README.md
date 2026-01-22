@@ -20,7 +20,10 @@ the goal is to get a general understanding of the data, spot quality issues, and
 
 ## insights
 
-- missing_values_check.sql
-* this query checks missing values
-* a large portion of records (over 36%) has missing pickup census tract
+1. missing_values_check.sql
+   this query checks missing values
+   a large portion of records (over 36%) has missing pickup census tract
 
+2. invalid_data_check.sql
+   this query checks how many records may be noise or invalid data
+   around 20% of trips have 0 miles and about 5% of trips have 0 seconds duration
