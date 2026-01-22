@@ -25,8 +25,8 @@ this query checks missing values
 a large portion of records (over 36%) has missing pickup census tract
 
 2. invalid_data_check.sql
-this query checks how many records may be noise or invalid data
-around 20% of trips have 0 miles and about 5% of trips have 0 seconds duration
+   this query checks how many records may be noise or invalid data  
+   around 20% of trips have 0 miles and about 5% of trips have 0 seconds duration  
 
 3. taxi_trips_yearly_stats.sql
 this query shows yearly Chicago taxi activity, including the number of active taxis, total rides, and estimated average daily trips
